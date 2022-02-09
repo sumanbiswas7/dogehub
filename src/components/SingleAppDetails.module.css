@@ -1,0 +1,60 @@
+@keyframes AppsSlide {
+  0% {
+    transform: translateX(-3rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+.main_container {
+  background-color: #e7c86c96;
+  width: 35rem;
+  border-radius: 0.3rem;
+  margin: auto;
+  padding: 0.3rem 0.8rem;
+  margin-bottom: 1.3rem;
+  animation: AppsSlide 0.8s;
+}
+.small_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.download_btn {
+  background-color: #3d3d3d;
+  display: block;
+  margin: auto;
+  width: fit-content;
+  text-decoration: none;
+  transition: all 0.2s;
+  padding: 0.4rem;
+  margin-bottom: 0.8rem;
+  margin-top: 1.5rem;
+}
+.download_btn:active {
+  transform: scale(0.9);
+}
+.download_icon {
+  color: #3d3d3d;
+}
+.button {
+  background-color: #3d3d3d;
+  border: none;
+  height: 2rem;
+  width: 2rem;
+  padding: 0.4rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.warning_text{
+  font-size: small;
+  color: black;
+}
+@media only screen and (max-width: 980px) {
+  .main_container {
+    width: 85vw;
+  }
+}

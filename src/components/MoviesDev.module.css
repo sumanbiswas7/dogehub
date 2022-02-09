@@ -1,0 +1,43 @@
+@keyframes moreText {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.download_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  animation: moreText 4s;
+  text-decoration: none;
+  color: #e7c86c;
+  background-color: #171717;
+  border: none;
+  cursor: pointer;
+}
+.epsidode_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7c86c;
+    margin-bottom: 1rem;
+    padding: 0 2rem;
+    border-radius: 3px;
+}
+.episode{
+    text-decoration: none;
+    margin: .2rem;
+    color: #171717;
+    width: 100%;
+}

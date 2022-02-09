@@ -1,0 +1,54 @@
+.navbarList {
+  list-style: none;
+  text-decoration: none;
+}
+.listContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1.5rem 20rem;
+}
+.link {
+  text-decoration: none;
+  padding: 0.3rem 0.2rem;
+  border-bottom: 3px solid rgba(0, 0, 0, 0);
+  transition: all 0.1s;
+}
+.link:hover {
+  color: #e7c86c;
+}
+
+.dogehubLogo {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 8px;
+}
+.brandContainer {
+  display: flex;
+  align-items: center;
+  margin-top: -3.6rem;
+  margin-left: 1.5rem;
+}
+
+.activePage {
+  border-bottom: 3px solid #e7c86c;
+}
+@media only screen and (max-width: 980px) {
+  .listContainer {
+    margin: 1.3rem 1rem;
+    font-size: 13px;
+  }
+  .dogehubLogoText {
+    display: none;
+  }
+  .brandContainer {
+    margin-left: 1rem;
+    margin-top: -2.55rem;
+  }
+  .link:hover {
+    color: #fff;
+  }
+  .link:active {
+    color: #e7c86c;
+  }
+} ;

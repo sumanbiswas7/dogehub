@@ -1,0 +1,17 @@
+@keyframes moreText {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.text_dapps {
+  text-align: left;
+  margin-left: 2rem;
+}
+.more_text {
+  text-align: center;
+  animation:moreText 4s;
+}

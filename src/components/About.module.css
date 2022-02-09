@@ -1,0 +1,83 @@
+.main_container{
+    background-color:#3d3d3d;
+    margin-top: 10rem;
+}
+.textContainer{
+    display: flex;
+}
+.textSection{
+    padding: .6rem 2.1rem;
+}
+.contact_me_btn{
+    padding: 4px;
+    height: 2rem;
+    color: #e7c86c;
+    background-color: #3d3d3d;
+    border: 2px solid #e7c86c;
+    cursor: pointer;
+    transition: all .2s;
+}
+.contact_me_btn:hover{
+    color: #3d3d3d;
+    background-color: #e7c86c;
+}
+.about_text{
+    padding-top: 1rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+.copyright{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.icon_container{
+    border: 2px solid #3d3d3d;
+    background-color: #e7c86c;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    transition: all .2s;
+    margin-right: 8px;
+}
+.icon_container:hover{
+    background-color: #3d3d3d;
+    border: 2px solid #e7c86c;
+}
+.icon_container:hover .icon{
+    fill: #e7c86c;
+}
+.icon{
+    color: #3d3d3d;
+    fill: #3d3d3d;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.footer_logo{
+    width: 4rem;
+    text-align: center;
+}
+.icon_main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:1.5rem 0;
+}
+
+.contact_btn{
+    color: #e7c86c;
+    background-color: #3d3d3d;
+    border-bottom: 2px solid #e7c86c;
+    transition: .3s all;
+    cursor: pointer;
+    text-decoration: none;
+}
+.contact_btn:active{
+    transform: scale(.9);
+}
+@media only screen and (max-width: 980px) {
+    .main_container{
+        margin-top: 5rem;
+    }
+}

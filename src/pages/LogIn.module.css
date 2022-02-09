@@ -1,0 +1,81 @@
+.center_fix{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.main_container{
+    width: fit-content;
+    padding: .5rem 1rem;
+}
+.logo_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.6rem;
+}
+.doge_logo{
+    width: 3rem;
+    margin-right: .3rem;
+}
+.title{
+    margin: 0;
+}
+.input_container{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+.input{
+    color: black;
+    background-color: #acacaccc;
+    outline: none;
+    padding: .5rem .8rem;
+    border: 2px solid rgba(0, 0, 0, 0);
+    margin-bottom: .7rem;
+    transition: .3s all;
+}
+.input:focus{
+    background-color: #ddddddcc;
+}
+.input::placeholder{
+    color: black;
+}
+.dob_container{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 1rem;
+    font-size: .8rem;
+    background-color: #acacaccc;
+    height: 2rem;
+    margin-bottom: .7rem;
+}
+.input_dob{
+    outline: none;
+    color: black;
+    height: 80%;
+    background-color:rgba(0, 0, 0, 0);
+    border: none;
+}
+.submit_button{
+    color: black;
+    margin: auto;
+    padding: .4rem 4rem;
+    background-color: #acacaccc;
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: .2s all;
+}
+.submit_button:hover{
+    background-color: #e7c86c;
+}
+.signup_link{
+    text-align: center;
+    width: 100%;
+}
+@media only screen and (min-width: 980px) {
+    .submit_button{
+        transition: none;
+    }
+}
